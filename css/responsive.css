@@ -1,0 +1,54 @@
+@media screen and (max-width: 1300px) {
+    /* navbar */
+    .wrap-1 .btn-top-right a{font-size: 20px !important; width: 140px !important;}
+    .wrap-1 .menu-navbar-center{width: auto;}
+    
+}
+@media screen and (max-width: 1200px) {
+    /* navbar */
+    .wrap-1 .btn-top-right a{font-size: 19px !important; width: 120px !important;}
+    .wrap-1 .nav-item{margin: 0 5px;}
+    /* wrap-2*/
+    .wrap-2 .tittle-text {font-size: 50px;}
+    .wrap-2 .title{margin-top: 20px;}
+}
+@media screen and (max-width: 1070px) {
+    /* navbar */
+    .wrap-1 .btn-top-right a{font-size: 16px !important; width: 110px !important;}
+    .wrap-1 .nav-item{margin: 0 2px;}
+}
+@media screen and (max-width: 992px) {
+    /* navbar */
+    .wrap-1 .btn-responsive-center {text-align: center;margin-top: 10px;}
+    .wrap-1 .btn-top-right{display: flex; justify-content: center; margin-bottom: 10px;}
+    .wrap-1 .navbar-toggler:focus {box-shadow: none;}
+    .wrap-2 .tittle-text {font-size: 39px;}
+    .wrap-2 .title-description {font-size: 14px;}
+    .title-number-header {font-size: 37px;}
+    .title-number-header {font-size: 27px;}
+    .tittle-number-description {font-size: 15px;color: #505660;font-weight: 500;margin: 8px 0px;}
+    .wrap-4 img{margin: 67px 0;}
+    .wrap-5 img{margin: 67px 0;}
+    .wrap-8 .reponsive{display: flex; justify-content: center; margin:15px 0px;}
+    .trail-text {font-size: 28px;}
+    .wrap-10 img{margin-top: 120px;}
+
+}
+@media screen and (max-width:768px) {
+    .col-reverse{flex-direction: column-reverse;}
+    .wrap-4 img {margin: 0 0 30px;}
+    .title-number-header {font-size: 37px;}
+    .wrap-5 img {margin: 0 0 30px;}
+    .trail-text {font-size: 22px;}
+    .btn{font-size: 16px !important;}
+    .flex{justify-content: center;}
+    .wrap-11 a{padding: 24px 5px;}
+}
+@media screen and (max-width: 576px) {
+    .wrap-10 img{display:block;margin:20px auto; }
+    .col-reverse{flex-direction: column-reverse;}
+    .wrap-1 .navbar-brand{max-width:160px;}
+    .text-center{text-align: center;}
+    .flex-direction{flex-direction: column;}
+
+}
